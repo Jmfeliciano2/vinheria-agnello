@@ -10,7 +10,6 @@ Este projeto tem como objetivo desenvolver um site moderno, intuitivo e focado n
 🏗️ Estrutura do Projeto
 
 O projeto é composto pelas seguintes páginas:
-
 Home
 Página inicial do site, apresentando a vinheria, destaques e navegação principa
 Produtos
@@ -23,8 +22,8 @@ Contato
 Página com formulário e informações para contato
 CSS (style.css)
 Responsável pela estilização e layout do site
-👥 Integrantes
 
+👥 Integrantes
 João Matheus Feliciano de Bueno
 Lucas Figueiredo Kobayashi
 Pedro Viana Alves
