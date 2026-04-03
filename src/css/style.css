@@ -1,0 +1,198 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6;
+    background-color: #0f0f0f; 
+    color: #e0e0e0;
+}
+
+
+header {
+    background-color: #1a0505; 
+    color: #b8860b; 
+    padding: 3.5rem 0;
+    text-align: center;
+    border-bottom: 5px double #8b4513; 
+    box-shadow: inset 0 0 80px rgba(0,0,0,0.9); 
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+}
+
+
+#menu-principal {
+    margin-top: 25px;
+}
+
+#menu-principal ul {
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #4a0e0e;
+    border-bottom: 1px solid #4a0e0e;
+}
+
+#menu-principal li a {
+    display: block;
+    color: #dcdcdc;
+    padding: 1.2rem 2rem;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+#menu-principal li a:hover {
+    color: #D4AF37;
+    background-color: #2a0a0a;
+    letter-spacing: 2px;
+}
+
+
+main {
+    max-width: 1050px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: #1c1c1c; 
+    border: 1px solid #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2, h3 {
+    color: #b8860b;
+    border-left: 5px solid #4A0E0E;
+    padding-left: 15px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border: 3px solid #333;
+    padding: 5px;
+    background-color: #000;
+    filter: sepia(20%); 
+}
+
+.video-container {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 20px;
+    background-color: #000;
+}
+
+
+.tabela-vinhos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5rem 0;
+    font-family: Arial, sans-serif; 
+}
+
+.tabela-vinhos th {
+    background-color: #4A0E0E;
+    color: #D4AF37;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.tabela-vinhos td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabela-vinhos tr:nth-child(even) {
+    background-color: #252525;
+}
+
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #252525;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+#form-contato label {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    color: #b8860b;
+}
+
+#form-contato input, 
+#form-contato textarea {
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #111;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#form-contato button {
+    margin-top: 2rem;
+    padding: 15px;
+    background-color: #4A0E0E;
+    color: #D4AF37;
+    border: 1px solid #b8860b;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+#form-contato button:hover {
+    background-color: #D4AF37;
+    color: #4A0E0E;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3rem;
+    background-color: #0a0a0a;
+    color: #666;
+    border-top: 2px solid #1a0505;
+}
+
+
+a {
+    color: #b8860b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
