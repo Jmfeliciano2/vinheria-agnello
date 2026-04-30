@@ -1,33 +1,40 @@
-🍷 Vinheria Agnello
+# 🍷 Vinheria Agnello
 
-Descrição do Projeto
+## Descrição do Projeto
+
 A Vinheria Agnello é uma empresa familiar de São Paulo com mais de 15 anos de atuação no mercado de vinhos, conhecida pelo atendimento especializado e personalizado.
+
 Com o impacto da pandemia, a empresa decidiu criar um e-commerce para acompanhar a mudança no comportamento dos clientes, mantendo no ambiente digital uma experiência próxima à da loja física.
+
 Este projeto tem como objetivo desenvolver um site moderno, intuitivo e focado na experiência do usuário.
 
-🏗️ Estrutura do Projeto
+---
+
+## 🏗️ Estrutura do Projeto
 
 O projeto é composto pelas seguintes páginas:
-Home
-Página inicial do site, apresentando a vinheria, destaques e navegação principa
-Produtos
-Exibe os vinhos disponíveis, com informações como tipo, origem e descrição
-Curiosidades
-Página com conteúdos sobre o mundo dos vinhos, como dicas e harmonizações
-Equipe
-Apresenta os integrantes do projeto e/ou equipe da vinheria
-Contato
-Página com formulário e informações para contato
-CSS (style.css)
-Responsável pela estilização e layout do site
 
-👥 Integrantes
-João Matheus Feliciano de Bueno
-Lucas Figueiredo Kobayashi
-Pedro Viana Alves
-Jhonathan dos Santos Dourado
+- **Home**: Página inicial do site, apresentando a vinheria, destaques e navegação principal;
+- **Produtos**: Exibe os vinhos disponíveis, com informações como tipo, origem e descrição;
+- **Curiosidades**: Página com conteúdos sobre o mundo dos vinhos, como dicas e harmonizações;
+- **Equipe**: Apresenta os integrantes do projeto e/ou equipe da vinheria;
+- **Contato**: Página com formulário e informações para contato;
+- **CSS (style.css)**: Responsável pela estilização e layout do site.
 
-link github-pages: https://jmfeliciano2.github.io/vinheria-agnello/
+---
+
+## 👥 Integrantes
+
+- João Matheus Feliciano de Bueno
+- Lucas Figueiredo Kobayashi
+- Pedro Viana Alves
+- Jhonathan dos Santos Dourado
+
+---
+
+## 🔗 Link do Site
+
+🔗 **GitHub Pages**: [https://jmfeliciano2.github.io/vinheria-agnello/](https://jmfeliciano2.github.io/vinheria-agnello/)
 
 ---
 
@@ -37,17 +44,17 @@ Esta seção descreve os efeitos visuais avançados implementados no projeto, ut
 
 ### 🎯 Pseudo-classes Utilizadas
 
-| Pseudo-classe | Elemento | Descrição |
-|---------------|----------|------------|
+| Pseudo-classe | Elemento Aplicado | Descrição |
+|--------------|------------------|-----------|
 | `:hover` | #menu-principal li a, #form-contato button, a | Mudança de cor e fundo ao passar o mouse |
-| `:focus` | #form-contato input, #form-contato textarea | Destaque com borda dourada ao selecionar campo |
+| `:focus` | #form-contato input, #form-contato textarea | Destaque com borda dourada ao selecionar o campo |
 | `:nth-child(even)` | .tabela-vinhos tr | Efeito zebrado nas linhas pares da tabela |
 | `:active` | #form-contato button | Efeito de pressão ao clicar no botão |
 
 ### 🎨 Pseudo-elementos Utilizados
 
-| Pseudo-elemento | Elemento | Descrição |
-|-----------------|----------|------------|
+| Pseudo-elemento | Elemento Aplicado | Descrição |
+|----------------|-------------------|-----------|
 | `::before` | #lista-beneficios ul li | Ícone 🍷 antes de cada item da lista |
 | `::after` | h2 | Linha decorativa dourada abaixo dos títulos |
 | `::first-letter` | #sobre p | Letra capitular estilizada (3.5rem) |
@@ -55,7 +62,7 @@ Esta seção descreve os efeitos visuais avançados implementados no projeto, ut
 
 ### 💫 Animações CSS
 
-- **@keyframes aparecer**: Animação de entrada do conteúdo principal com opacity e translateY
+- **@keyframes aparecer**: Animação de entrada do conteúdo principal com opacity e translateY.
 
 ### 🔄 Transições Aplicadas
 
@@ -67,14 +74,26 @@ Esta seção descreve os efeitos visuais avançados implementados no projeto, ut
 
 ### 🎢 Transformações CSS
 
-| Transformação | Elemento | Efeito |
-|----------------|----------|--------|
-| translateY(-4px) | #form-contato button |Levantamento ao hover |
+| Transformação | Elemento Aplicado | Efeito |
+|---------------|-------------------|--------|
+| translateY(-4px) | #form-contato button | Levantamento ao hover |
 | skewX(-15deg) | #menu-principal li a | Inclinação no menu |
 | scale(0.96) | #form-contato button | Efeito de pressão |
 | rotate(2deg) + scale(1.05) | img | Rotação e zoom ao hover |
 
 ### 📁 Arquivos CSS
 
-- **style.css**: Estilização principal e layout
-- **efeitos.css**: Arquivo dedicado aos efeitos visuais avançados (importado no final do style.css)
+- **style.css**: Estilização principal e layout;
+- **efeitos.css**: Arquivo dedicado aos efeitos visuais avançados (importado no final do style.css).
+
+---
+
+## ✅ Checklist do Check-point 02
+
+- [x] Adição de pelo menos 3 pseudo-classes
+- [x] Uso de pelo menos 2 pseudo-elementos
+- [x] Animação com @keyframes
+- [x] 2 transformações (scale, rotate, etc.)
+- [x] Transições aplicadas em elementos interativos
+- [x] efeitos.css criado e importado
+- [x] README.md atualizado com seção de efeitos
