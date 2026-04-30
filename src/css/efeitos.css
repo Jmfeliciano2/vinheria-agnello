@@ -16,4 +16,9 @@
     background-color: #252525;
 }
 
+#form-contato button:active {
+    transform: scale(0.96);
+    background-color: #8b4513;
+}
+
 
