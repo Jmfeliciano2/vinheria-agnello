@@ -1,3 +1,21 @@
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main {
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
 #menu-principal li a:hover {
     color: #D4AF37;
     background-color: #2a0a0a;
