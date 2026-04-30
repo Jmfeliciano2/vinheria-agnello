@@ -69,4 +69,19 @@ h2::after {
     color: #D4AF37; /* Mantendo a cor que já existia no seu arquivo */
 }
 
+/* Pseudo-elementos - Letra capitular e seleção de texto */
+#sobre p::first-letter {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #b8860b;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}
+
+::selection {
+    background-color: #b8860b;
+    color: #1a0505;
+}
+
 
