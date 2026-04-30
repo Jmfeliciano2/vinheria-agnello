@@ -54,4 +54,19 @@ h2::after {
     margin-top: 5px;
 }
 
+/* Transformações - Efeitos de translação e inclinação */
+#form-contato button:hover {
+    transform: translateY(-4px);
+}
+
+#menu-principal li a {
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+
+#menu-principal li a:hover {
+    transform: skewX(-15deg);
+    color: #D4AF37; /* Mantendo a cor que já existia no seu arquivo */
+}
+
 
