@@ -85,15 +85,3 @@ Esta seção descreve os efeitos visuais avançados implementados no projeto, ut
 
 - **style.css**: Estilização principal e layout;
 - **efeitos.css**: Arquivo dedicado aos efeitos visuais avançados (importado no final do style.css).
-
----
-
-## ✅ Checklist do Check-point 02
-
-- [x] Adição de pelo menos 3 pseudo-classes
-- [x] Uso de pelo menos 2 pseudo-elementos
-- [x] Animação com @keyframes
-- [x] 2 transformações (scale, rotate, etc.)
-- [x] Transições aplicadas em elementos interativos
-- [x] efeitos.css criado e importado
-- [x] README.md atualizado com seção de efeitos
