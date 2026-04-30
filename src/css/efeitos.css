@@ -84,4 +84,13 @@ h2::after {
     color: #1a0505;
 }
 
+/* Transformações - Efeito de rotação e zoom nas imagens */
+img {
+    transition: transform 0.4s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(2deg) scale(1.05);
+}
+
 
