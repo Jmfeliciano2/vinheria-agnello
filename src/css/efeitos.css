@@ -12,3 +12,8 @@
     background-color: #1a1a1a;
 }
 
+.tabela-vinhos tr:nth-child(even) {
+    background-color: #252525;
+}
+
+
