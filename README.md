@@ -28,3 +28,53 @@ Pedro Viana Alves
 Jhonathan dos Santos Dourado
 
 link github-pages: https://jmfeliciano2.github.io/vinheria-agnello/
+
+---
+
+## ✨ Efeitos Visuais
+
+Esta seção descreve os efeitos visuais avançados implementados no projeto, utilizando recursos modernos de CSS.
+
+### 🎯 Pseudo-classes Utilizadas
+
+| Pseudo-classe | Elemento | Descrição |
+|---------------|----------|------------|
+| `:hover` | #menu-principal li a, #form-contato button, a | Mudança de cor e fundo ao passar o mouse |
+| `:focus` | #form-contato input, #form-contato textarea | Destaque com borda dourada ao selecionar campo |
+| `:nth-child(even)` | .tabela-vinhos tr | Efeito zebrado nas linhas pares da tabela |
+| `:active` | #form-contato button | Efeito de pressão ao clicar no botão |
+
+### 🎨 Pseudo-elementos Utilizados
+
+| Pseudo-elemento | Elemento | Descrição |
+|-----------------|----------|------------|
+| `::before` | #lista-beneficios ul li | Ícone 🍷 antes de cada item da lista |
+| `::after` | h2 | Linha decorativa dourada abaixo dos títulos |
+| `::first-letter` | #sobre p | Letra capitular estilizada (3.5rem) |
+| `::selection` | Texto selecionado | Cor de destaque dourada na seleção |
+
+### 💫 Animações CSS
+
+- **@keyframes aparecer**: Animação de entrada do conteúdo principal com opacity e translateY
+
+### 🔄 Transições Aplicadas
+
+| Elemento | Transição | Duração |
+|----------|-----------|---------|
+| #menu-principal li a | all | 0.4s ease |
+| img | transform | 0.4s ease-in-out |
+| #form-contato button | 0.3s | - |
+
+### 🎢 Transformações CSS
+
+| Transformação | Elemento | Efeito |
+|----------------|----------|--------|
+| translateY(-4px) | #form-contato button |Levantamento ao hover |
+| skewX(-15deg) | #menu-principal li a | Inclinação no menu |
+| scale(0.96) | #form-contato button | Efeito de pressão |
+| rotate(2deg) + scale(1.05) | img | Rotação e zoom ao hover |
+
+### 📁 Arquivos CSS
+
+- **style.css**: Estilização principal e layout
+- **efeitos.css**: Arquivo dedicado aos efeitos visuais avançados (importado no final do style.css)
